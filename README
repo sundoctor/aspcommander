@@ -19,7 +19,7 @@ INSTALLATION
 6. Use ASP Commander from IE/FF/Chrome/Opera: http://you_site.com/aspcommander/index.asp
 
 Note:
-* You can use http://you_site.com/ac/passwd.asp to generate md5(password)
+* You can use http://you_site.com/aspcommander/passwd.asp to generate md5(password)
 * You can check *.log files to control software access
 
 REQUIREMENTS
@@ -28,7 +28,7 @@ REQUIREMENTS
 - Microsoft Windows NT/2000/XP/2003/Win7/2008/2012
 - Microsoft Internet Information Server v5 or above
 - ADODB v2.8 (ADODB.Stream) [www.microsoft.com]
-- aspSmart (aspSmartUpload.SmartUpload) [http://www.aspSmart.com]
+- aspSmart (aspSmartUpload.SmartUpload) [www.aspsmart.com]
   (if you wish to upload files to server over internet)
 
 
