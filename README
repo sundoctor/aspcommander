@@ -11,15 +11,16 @@ and Active Server Pages Technology (IIS with ASP and SSI enabled)
 INSTALLATION
 ------------
 
-1. Please unpack sources under a Web-accessible directory, e.g. /ac/
+1. Please unpack sources under a Web-accessible directory, e.g. /aspcommander/
 2. Set up the correct owner of the files and give him write permissions
 3. Make 'index.asp' file the default ASP index page
-4. Check that ASP-pages and SSI-includes are enabled on IIS.
-5. Replace default login user and password in 'config.inc.asp'
-6. Use it as http://you_site.com/ac/
+4. Check that ASP-pages and SSI-includes are enabled on IIS
+5. Replace default 'user' and 'password' in 'config.inc.asp'
+6. Use ASP Commander from IE/FF/Chrome/Opera: http://you_site.com/aspcommander/index.asp
 
 Note:
 * You can use http://you_site.com/ac/passwd.asp to generate md5(password)
+* You can check *.log files to control software access
 
 REQUIREMENTS
 ------------
@@ -55,11 +56,12 @@ http://www.github.com/sundoctor/aspcommander
 Regards,
 SunDoctor
 
-Remove Assistant Mf.
-
+Remote Assistant Mf.
 
 ////////////////////////////////////////////////////////////////////////////////
 
+This project is made under Apache license.
+See LICENSE file for more information.
 See last version number in version.txt
 
 ////////////////////////////////////////////////////////////////////////////////
