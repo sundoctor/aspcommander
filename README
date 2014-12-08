@@ -1,0 +1,66 @@
+////////////////////////////////////////////////////////////////////////////////
+
+ASP Commander
+
+////////////////////////////////////////////////////////////////////////////////
+
+Thank you for choosing ASP Commander - opensource software
+for remote web site administration based on MS Internet Information Services
+and Active Server Pages Technology (IIS with ASP and SSI enabled)
+
+INSTALLATION
+------------
+
+1. Please unpack sources under a Web-accessible directory, e.g. /ac/
+2. Set up the correct owner of the files and give him write permissions
+3. Make 'index.asp' file the default ASP index page
+4. Check that ASP-pages and SSI-includes are enabled on IIS.
+5. Replace default login user and password in 'config.inc.asp'
+6. Use it as http://you_site.com/ac/
+
+Note:
+* You can use http://you_site.com/ac/passwd.asp to generate md5(password)
+
+REQUIREMENTS
+------------
+
+- Microsoft Windows NT/2000/XP/2003/Win7/2008/2012
+- Microsoft Internet Information Server v5 or above
+- ADODB v2.8 (ADODB.Stream) [www.microsoft.com]
+- aspSmart (aspSmartUpload.SmartUpload) [http://www.aspSmart.com]
+  (if you wish to upload files to server over internet)
+
+
+FEATURES
+--------
+
+1. Drive, directory and file listings
+2. Attributes, size, modification date views
+3. File creating, viewing, modifying, deletion
+4. Directory creating, listing, modifying, deletion
+5. File and directory renaming
+6. Attributes changing
+7. Copy/Paste operations on files and directories
+8. Download and Upload files with aspSmartUpload
+
+
+WHAT's NEXT
+-----------
+
+Please visit github page of the project website
+for last version and discussion with other users.
+
+http://www.github.com/sundoctor/aspcommander
+
+Regards,
+SunDoctor
+
+Remove Assistant Mf.
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+See last version number in version.txt
+
+////////////////////////////////////////////////////////////////////////////////
+(Ñ) SunDoctor, sun-doctor@7masterov.ru, All rights reserved

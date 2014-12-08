@@ -1,0 +1,56 @@
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide script from older browsers
+function changePage() {
+    if (self.parent.frames.length != 0)
+        self.parent.location=document.location;
+}
+changePage();
+// end hiding contents -->
+</SCRIPT>
+
+<SCRIPT language="JavaScript" TYPE="text/javascript">
+<!-- Hide script from older browsers
+var block = false;
+function checkLogin(form) {
+    if (block) return false;
+    var errMessage = "";
+    if (form.elements['login'].value.length<3)
+        errMessage = "Incorrect login!";
+    else if (form.elements['password'].value.length<3)
+        errMessage = "Password is too short!";
+    if (errMessage=="") {
+        block = true;
+        return true;
+    }
+    alert(errMessage);
+    return false;
+}
+// end hiding contents -->
+</SCRIPT>
+<TABLE border="0" cellspacing="0" cellpadding="0" width="260" bgcolor="#0066CC">
+<TR>
+<TD><TABLE border="0" cellspacing="2" cellpadding="3" width="260">
+<TR bgcolor="#0066CC">
+<TD STYLE="color:white;"><B>ASP Commander</B></TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<FORM ACTION="index.asp?cmd=logon" METHOD="post" ONSUBMIT="return checkLogin(this);">
+<INPUT type="hidden" name="cmd" value="logon">
+<TR>
+	<TD>Login:</TD>
+	<TD><INPUT TYPE="text" NAME="login" VALUE="<!--$login-->" SIZE="20" MAXLENGTH="50" STYLE="background-color: #E1E1E1; border: 1px solid #C9C9C9"></TD>
+</TR>
+<TR>
+	<TD>Password:</TD>
+	<TD><INPUT TYPE="password" NAME="password" VALUE="" SIZE="20" MAXLENGTH="50" STYLE="background-color: #E1E1E1; border: 1px solid #C9C9C9"></TD>
+</TR>
+<TR ALIGN="center">
+	<TD>&nbsp;</TD>
+	<TD><INPUT TYPE="submit" VALUE="&nbsp;&nbsp;Submit&nbsp;&nbsp;" STYLE="background-color: #E1E1E1; border: 1px solid #C9C9C9"></TD>
+</TR>
+</FORM>
+</TABLE>
+</TD>
+</TR></TABLE></TD>
+</TR></TABLE>
